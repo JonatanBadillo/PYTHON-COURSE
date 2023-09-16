@@ -29,7 +29,7 @@ print(id(z)) # Getting the memory adress of the variable z
 
 # Exercise Declaration of Variables
 print('----------------------------')
-print("Exercise Declaration of Variables")
+print("Exercise Declaration of Variables: ")
 name = "Juan Perez"
 phone_number = 5562187
 mail = "jperez@mail.com"
@@ -37,3 +37,18 @@ mail = "jperez@mail.com"
 print(name)
 print(phone_number)
 print(mail)
+
+# Type of Data
+print('----------------------------')
+print("Type of data: ")
+print(x)
+print(type(x))
+x = "Jonatan"
+print(x)
+print(type(x))
+x = 15.67
+print(x)
+print(type(x))
+x = True
+print(x)
+print(type(x))
