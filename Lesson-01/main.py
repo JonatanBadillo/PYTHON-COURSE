@@ -19,3 +19,10 @@ x = 3
 y = 7
 z = x + y
 print(z)
+
+# Memory adress
+print('----------------------------')
+print("Memory Adress:")
+print(id(x)) # Getting the memory adress of the variable x
+print(id(y)) # Getting the memory adress of the variable y
+print(id(z)) # Getting the memory adress of the variable z
