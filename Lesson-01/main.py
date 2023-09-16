@@ -20,9 +20,20 @@ y = 7
 z = x + y
 print(z)
 
-# Memory adress
+# Memory address
 print('----------------------------')
-print("Memory Adress:")
+print("Memory Address:")
 print(id(x)) # Getting the memory adress of the variable x
 print(id(y)) # Getting the memory adress of the variable y
 print(id(z)) # Getting the memory adress of the variable z
+
+# Exercise Declaration of Variables
+print('----------------------------')
+print("Exercise Declaration of Variables")
+name = "Juan Perez"
+phone_number = 5562187
+mail = "jperez@mail.com"
+
+print(name)
+print(phone_number)
+print(mail)
