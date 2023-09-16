@@ -52,3 +52,18 @@ print(type(x))
 x = True
 print(x)
 print(type(x))
+
+# String Management
+print('----------------------------')
+print("String Management: ")
+myFavoriteSinger = "Adele" + " ,The GOAT"
+print("My favorite singer is: " + myFavoriteSinger)
+print("My favorite singer is: ",myFavoriteSinger)
+
+number1 = "1"
+number2 = "4"
+print("Concatenation: " + number1 + number2)
+
+number1 = 1
+number2 = 4
+print("Addition: ", number1 + number2)
