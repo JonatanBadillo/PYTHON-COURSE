@@ -75,3 +75,17 @@ myVariable = 1 > 2
 print(myVariable)
 myVariable = 1 < 2
 print(myVariable)
+
+# Process user input
+print('----------------------------')
+print("Process user input: ")
+number1 = int(input("Give me a number: "))
+number2 = int(input("Give me a number: "))
+result = number1 + number2
+print("Result: ",result)
+
+# Exercise Rate your Day
+print('----------------------------')
+print("Exercise Rate your Day: ")
+day = int(input("Rate your day(from 1 to 10): "))
+print("My day is : ",day)
