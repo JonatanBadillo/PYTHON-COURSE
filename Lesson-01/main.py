@@ -89,3 +89,10 @@ print('----------------------------')
 print("Exercise Rate your Day: ")
 day = int(input("Rate your day(from 1 to 10): "))
 print("My day is : ",day)
+
+# Exercise Information of a book
+print('----------------------------')
+print("Exercise Information of a book: ")
+title = input("Title: ")
+author = input("Author: ")
+print(title + " was written by " + author)
