@@ -67,3 +67,11 @@ print("Concatenation: " + number1 + number2)
 number1 = 1
 number2 = 4
 print("Addition: ", number1 + number2)
+
+# Boolean 
+print('----------------------------')
+print("Boolean: ")
+myVariable = 1 > 2
+print(myVariable)
+myVariable = 1 < 2
+print(myVariable)
