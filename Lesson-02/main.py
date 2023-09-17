@@ -86,3 +86,14 @@ print(f'Result > : {result}')
 
 result = a >= b
 print(f'Result >= : {result}')
+
+# Exercise Even number or Odd number
+print('----------------------------')
+print('Exercise Even number or Odd number')
+a = int(input('Provide a number: '))
+
+#print(a % 2)
+if a % 2 == 0:
+    print(f'The value of {a} is even number')
+else:
+    print(f'the value of {a} is odd number')
