@@ -45,3 +45,39 @@ elif age>=21 and age<=30:
     print('Love and work starts')
 else:
     print('Unrecognized stage of life')
+
+# Grading System
+'''
+    Task instructions:
+    The objective of this exercise is to create a grading system, as follows:
+    The user will provide a value between 0 and 10.
+    If it is between 9 and 10: print an A
+    If it is between 8 and less than 9: print a B
+    If it is between 7 and less than 8: print a C
+    If it is between 6 and less than 7: print a D
+    If it is between 0 and less than 6: print an F
+    Any other value should print: Incorrect value
+    For example:
+    Provide a value between 0 and 10:
+    A
+'''
+print('----------------------------')
+print('Grading System')
+
+note = int(input('Provide a value between 0 and 10: '))
+grade = 'A'
+if 0<= note < 6:
+    grade = 'F'
+elif 6<= note < 7:
+    grade = 'D' 
+elif 7<= note < 8:
+    grade = 'C'  
+elif 8<= note < 9:
+    grade = 'B' 
+elif 9<= note <= 10:
+    grade = 'A'
+else:
+    grade = 'Incorrect value'   
+
+
+print(grade)
