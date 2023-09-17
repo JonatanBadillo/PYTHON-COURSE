@@ -97,3 +97,14 @@ if a % 2 == 0:
     print(f'The value of {a} is even number')
 else:
     print(f'the value of {a} is odd number')
+
+
+# Exercise Adult person
+print('----------------------------')
+print('Exercise Adult person')
+adult = 18
+age = int(input('Provide your age: '))
+if age >= adult:
+    print('You are an adult')
+else:
+    print('You are not an adult')
