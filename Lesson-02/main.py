@@ -53,3 +53,36 @@ perimeter = (height + width) * 2
 
 print(f'Area: {area}')
 print(f'Perimeter: {perimeter}')
+
+# Assignment Operators
+print('----------------------------')
+print('Assignment Operators')
+myVariable = 10
+print(myVariable)
+
+myVariable += 1
+print(myVariable)
+
+myVariable -= 2
+print(myVariable)
+
+myVariable *= 3
+print(myVariable)
+
+# Comparison Operators
+print('----------------------------')
+print('Comparison Operators')
+a = 4
+b = 2
+
+result = a == b
+print(f'Result == : {result}')
+
+result = a != b
+print(f'Result != : {result}')
+
+result = a > b
+print(f'Result > : {result}')
+
+result = a >= b
+print(f'Result >= : {result}')
