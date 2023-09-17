@@ -22,4 +22,26 @@ elif number == 2 :
 elif number == 3 :
     print('Three')
 else:
-    print('Invalid Number')        
+    print('Invalid Number')       
+
+# Ternary operator 
+print('----------------------------')
+print('Ternary operator ')
+
+condition = True
+print('True Condition') if condition else print('False Condition')
+
+# Stages of Life
+print('----------------------------')
+print('Stages of Life')
+
+age = int(input('Provide your age: '))
+
+if age>=0 and age<=10: 
+    print('Amazing childhood')
+elif age>=11 and age<= 20:
+    print('A lot of changes and a lot of study')
+elif age>=21 and age<=30:
+    print('Love and work starts')
+else:
+    print('Unrecognized stage of life')
