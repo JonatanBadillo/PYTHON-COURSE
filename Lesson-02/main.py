@@ -136,4 +136,18 @@ inRange = (value >= minVal) and (value <= maxVal)
 if inRange:
     print('Value in range')
 else:
-    print('Not in range')    
+    print('Not in range') 
+
+# Exercise Book Store
+print('----------------------------')
+print('Exercise Book Store') 
+
+name = input('Provide the name of the book: ')
+idBook = int(input('Provide the ID: '))
+price = float(input('Provide the price: '))
+free = bool(input('Indicate if it is free shipping (True/False): '))
+
+print(f'Name: {name}')
+print(f'ID: {idBook}')
+print(f'Price: {price}')
+print(f'Free Shipphing?: {free}')
