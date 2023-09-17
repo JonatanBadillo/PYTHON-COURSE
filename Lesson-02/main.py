@@ -108,3 +108,32 @@ if age >= adult:
     print('You are an adult')
 else:
     print('You are not an adult')
+
+# Logical Operators
+print('----------------------------')
+print('Logical Operators')
+
+a = True
+b = False 
+result = a and b
+print(result)
+
+result = a or b
+print(result)
+
+result = not b
+print(result)
+
+# Exercise Value within a range
+print('----------------------------')
+print('Exercise Value within a range')
+value = int(input('Provide a value: '))
+minVal = 0
+maxVal = 5
+
+inRange = (value >= minVal) and (value <= maxVal)
+
+if inRange:
+    print('Value in range')
+else:
+    print('Not in range')    
