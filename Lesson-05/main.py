@@ -90,3 +90,23 @@ print(names)
 
 # Deleting all the list
 del names
+
+# Exercise 1. Iterate over a range from 0 to 10 and print numbers divisible by 3
+print('----------------------------')
+print('EXERCISE 1')
+for i in range(0,11):
+    if i % 3 == 0:
+        print(i)
+
+
+# Exercise 2. Create a range of numbers from 2 to 6 and print them
+print('----------------------------')
+print('EXERCISE 2')
+for i in range (2,7):
+    print(i)
+
+# Exercise 3. Create a range from 3 to 10, but with an increment of 2 in 2, instead of 1 in 1
+print('----------------------------')
+print('EXERCISE 3')
+for i in range (3,11,2):
+    print(i)
