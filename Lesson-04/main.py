@@ -13,3 +13,15 @@ while counter<3:
     counter += 1
 else:
     print('Ending of the whyle cycle')
+
+
+# Printing numbers from 5 - 1 in a descending manner
+print('----------------------------')
+print('Printing numbers from 5 - 1 in a descending manner')
+
+counter = 5
+while counter>0:
+    print(counter)
+    counter -= 1
+else:
+    print('Ending of the whyle cycle')
