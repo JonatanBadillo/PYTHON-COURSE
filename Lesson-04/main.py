@@ -25,3 +25,26 @@ while counter>0:
     counter -= 1
 else:
     print('Ending of the whyle cycle')
+
+
+# FOR
+print('----------------------------')
+print('FOR')
+
+string = 'hola'
+for letter in string:
+    print(letter)
+else:
+    print('Ending of the for cycle')
+
+# BREAK IN PYTHON
+print('----------------------------')
+print('BREAK IN PYTHON')
+
+for letter in 'Netherland':
+    if letter == 'a':
+        print(f'Letter found: {letter}')
+        break  
+else:
+    print('Ending of the for cycle')
+
