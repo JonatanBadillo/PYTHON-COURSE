@@ -7,13 +7,13 @@ print(names)
 
 # accessing to the elements of the list
 print('----------------------------')
-print('Accessing to the elements of the list')
+print('Accesssing to the elements of the list')
 print(names[0])
 print(names[2])
 
 # accesing to the elements in reverse manner
 print('----------------------------')
-print('Accesing to the elements in reverse manner')
+print('Accessing to the elements in reverse manner')
 print(names[-1])
 print(names[-2])
 
@@ -110,3 +110,35 @@ print('----------------------------')
 print('EXERCISE 3')
 for i in range (3,11,2):
     print(i)
+
+# Tuples in Python 
+print('----------------------------')
+print('Tuples in python')# You can not add, modify or delete elements in a tuple
+# Define a tuple
+fruits = ('Banana','Apple','Orange')
+# To know the length
+print('To know the lenght of the tuple:')
+print(len(fruits))
+# Accesing to an element
+print(fruits[0])
+# Inverse navegation
+print('Inverse navegation:')
+print(fruits[-1])
+# Range of values
+print('Range of values:')
+print(fruits[0:2]) # without including the last index
+# Accesing all the elements
+print('Accessing all the elements')
+for fruit in fruits:
+    print(fruit,end=' ')
+print()
+
+# To modify a tuple we have to convert into a list 
+print('Modifying a element of a tuple')
+listFruits = list(fruits)
+listFruits[0] = 'Watermelon'
+fruits = tuple(listFruits)
+print(fruits)
+
+# Deleting a tuple
+del(fruits)
