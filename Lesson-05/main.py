@@ -142,3 +142,15 @@ print(fruits)
 
 # Deleting a tuple
 del(fruits)
+
+# Given this tuple: Create a list that only includes numbers smaller than 5
+myTuple = (13 , 1, 8, 3, 2, 5, 8)
+print('----------------------------')
+print('Exercise: Create a list that only includes numbers smaller than 5')
+myNewList = []
+
+for i in myTuple:
+    if (i < 5):
+        myNewList.append(i)
+
+print(myNewList)
